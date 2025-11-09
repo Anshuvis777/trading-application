@@ -1,97 +1,83 @@
-# Trading App
+# Trading Application 💹
 
-This project is a trading application built using Java Spring Boot, HTML, CSS, JavaScript, and MySQL. 
+This is a **full-stack trading management system** built by **Anshu Kumar**, designed using **Spring Boot, MySQL, HTML, CSS, and JavaScript**.  
+It provides seamless portfolio tracking, stock management, and live market analysis using TradingView integration.
 
+---
 
-## Module
-<span style="color:blue">**User**</span><br>
-<span>&#9745;</span> User Account Management<br>
-<span>&#9745;</span> Notification mail<br>
-<span>&#9745;</span> Password hashing<br>
-<span>&#9745;</span> Nominee management <br>
-<span>&#9745;</span> View stocks<br>
-<span>&#9745;</span> Market Data<br>
-<span>&#9745;</span> View current share market status<br>
-<span>&#9745;</span> Perform fundamental and technical analysis using TradingView CDN<br>
-<span>&#9745;</span> Buy stock<br>
-<span>&#9745;</span> Sell stock<br>
-<span>&#9745;</span> Transaction History  <br>
-<span>&#9745;</span> Portfolio <br>
-<span>&#9745;</span> Charts for investment details <br>
-<span>&#9745;</span> Stop loss and gain for stocks using scheduler <br>
+## 🚀 Modules
 
+### 🧍 User Module
+- ✅ User account management (registration, login, password hashing)
+- ✅ Email notifications and alerts (via Gmail SMTP)
+- ✅ Nominee management for investment accounts
+- ✅ View available stocks and live market data
+- ✅ Perform **technical and fundamental analysis** using TradingView CDN
+- ✅ Buy and sell stocks in real time
+- ✅ Maintain transaction history and detailed portfolio summary
+- ✅ View interactive investment charts
+- ✅ Automated stop-loss and gain triggers using Spring Scheduler
 
+---
 
+## 🛠️ Technologies Used
 
-## Technologies Used
-1. Front-End Development:
-   - HTML 5
-   - CSS
-   - JavaScript
-   - Thymeleaf
+### Front-End
+- HTML5  
+- CSS3  
+- JavaScript  
+- Thymeleaf  
 
-2. Back-End Development:
-   - Java [JDK 17]
-   - JDBC
-   - Spring Boot
+### Back-End
+- Java 17  
+- Spring Boot (MVC, JPA, Scheduler)  
+- JDBC  
+- Hibernate  
 
-3. Database:
-   - MySQL
+### Database
+- MySQL  
 
-## Services Used
+### Third-Party Services
+- **[TradingView](https://www.tradingview.com/)** — Real-time technical analysis and charting  
+- **[DataTables](https://datatables.net/)** — Interactive and filterable tables  
+- **[Gmail SMTP](https://mailmeteor.com/blog/gmail-smtp-settings)** — Sending user notifications and alerts  
+- **[Alpha Vantage](https://www.alphavantage.co/documentation/)** — Live and historical financial market data APIs  
 
-- **[TradingView](https://www.tradingview.com/)**: A platform for technical analysis and charting.
-- **[DataTables](https://datatables.net/)**: A JavaScript library for enhancing HTML tables.
-- **[Gmail SMTP](https://mailmeteor.com/blog/gmail-smtp-settings)**: A service for sending emails using Gmail.
-- **[Alpha Vantage](https://www.alphavantage.co/documentation/)**: A provider of real-time and historical financial market data.
+---
 
-## Trading App Features 
+## 📈 Key Features
 
-- **User Account Management**: Secure and user-friendly registration and login processes, including features like email verification and password hashing.
-- **Market Data**: Access to real-time market data, including live stock prices, market trends, and detailed charts. Users can stay informed about the latest market movements and make timely trading decisions.
-- **Technical and Fundamental Analysis**: Advanced tools for performing in-depth technical and fundamental analysis of stocks. This includes interactive charts, indicators, and analytics powered by platforms like TradingView.
+- **User Account Management:**  
+  Secure registration, login, password hashing, and email notifications.
 
-- **Portfolio Management**: Tools for tracking and managing investment portfolios. Users can view their holdings, monitor portfolio performance, and analyze investment returns.
-- **Transaction History**: Detailed records of all trading activities, including past buy and sell transactions, to help users keep track of their investment activities.
-- **Notifications and Alerts**: Real-time notifications and alerts to keep users updated on significant order statuses.
-- **Educational Resources**: Access to educational content and resources to help users understand trading concepts, market strategies, and the functionalities of the app.
+- **Real-Time Market Data:**  
+  Displays live stock prices, trends, and technical indicators.
 
+- **Portfolio & Transaction Management:**  
+  Tracks holdings, transaction history, and investment performance.
 
+- **Stop-Loss Automation:**  
+  Automatically triggers buy/sell based on pre-defined limits using a scheduled service.
 
+- **Interactive Charts:**  
+  Visual insights into user portfolio trends using TradingView APIs.
 
+---
 
-
-## Getting Started
+## 🧠 Getting Started
 
 ### Prerequisites
-
-- Eclipse
-- Java [JDK 17]
-- Tomcat v9.0+
+Make sure you have the following installed:
+- Java 17+
 - Apache Maven
-- MySQL Workbench
+- MySQL Server / MySQL Workbench
+- IntelliJ IDEA or Eclipse IDE
 
-### Documentation 
-<a href="https://docs.google.com/document/d/1uDWNu_nVZg_WMPRmFp8GpiPK8FkmjQl9L7_3Mycwurc/edit?usp=sharing"> Trading App User Manual</a><br>
-<a href="https://docs.google.com/presentation/d/1T7-Wp_bDQAtGXZUVn_fbNRWOEe6S2-QqE0tqOGsPo98/edit?usp=sharing"> Trading App PPT</a>
+---
 
+### ⚙️ Installation Steps
 
-### Installation
-
-1. **Clone the repository**:
-
-   ```sh 
-   https://git.chainsys.com/2024_java_batch/trading_application.git
-
-2.  **Database**:
-    Run the sql script in mysql database 
-3. **Configure the application.properties**:
-   In a Spring Boot project, the application.properties (or application.yml) file is used to configure various settings, such as database connections, server port, logging, and other application-specific configurations. Configure according  to your settings.
-
-4. **Access the App** : 
-Open your browser and go to:
-```sh
-http://localhost:9000 
-
-
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Anshuvis777/trading-application.git
+   cd trading-application
